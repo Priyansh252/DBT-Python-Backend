@@ -1,0 +1,17 @@
+{
+  "name": "test2",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@t3-oss/env-core": "^0.13.8",
+    "hono": "^4.9.7",
+    "zod": "^4.1.8"
+  }
+}
